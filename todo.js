@@ -19,7 +19,7 @@ const renderhiits = () => {
   for (let i = 0; i < todo.length; i++) {
     const newDiv = document.createElement("div");
 
-    newDiv.textContent = todo[i];
+    newDiv.textContent = i + 1 + ". " + todo[i];
     newDiv.classList.add("shinekow");
 
     hiits.appendChild(newDiv);

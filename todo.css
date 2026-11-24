@@ -8,7 +8,9 @@ section {
   justify-content: center;
   align-items: center;
 }
-
+.etseg {
+  border-radius: 20px;
+}
 section h1 {
   font-size: 40px;
   color: cornsilk;
@@ -23,6 +25,9 @@ section div {
   height: 400px;
 }
 .shinekow {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
   background-color: rgba(43, 183, 226, 0.872);
   border: 1px solid grey;
   width: 500px;
@@ -36,12 +41,14 @@ section div {
   border: 2px solid grey;
   width: 500px;
   background-color: rgba(101, 129, 129, 0.648);
+  border-radius: 10px;
 }
 .add {
   display: flex;
   justify-content: center;
   flex-direction: row;
   gap: 10px;
+  border-radius: 20px;
 }
 .input {
   width: 500px;
